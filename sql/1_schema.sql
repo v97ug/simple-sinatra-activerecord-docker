@@ -3,6 +3,6 @@ USE test;
 
 CREATE TABLE IF NOT EXISTS `users` (
     id         INTEGER      PRIMARY KEY AUTO_INCREMENT,
-    name       VARCHAR(191) NOT NULL UNIQUE,
+    name       VARCHAR(191) NOT NULL,
     created_at DATETIME     NOT NULL
 );
